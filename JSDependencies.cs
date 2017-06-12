@@ -52,7 +52,7 @@ namespace deDogs.JSDependencies
                     }
 
                     NumberRelativePaths = matched.Groups[1].Captures.Count;
-                    FileName = matched.Groups[3].Captures[0].Value.Replace("ts", "js");
+                    FileName = matched.Groups[3].Captures[0].Value.Replace(".ts", ".js");
                 }
                 else
                 {
